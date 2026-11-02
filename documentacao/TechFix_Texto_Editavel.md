@@ -34,7 +34,7 @@ SÃO PAULO
 
 # RESUMO
 
-O projeto TechFix apresenta uma solução acadêmica para organizar o atendimento de uma assistência técnica de computadores, notebooks e celulares. A proposta considera pessoas físicas e pequenos negócios que dependem desses equipamentos e precisam de informações claras sobre os reparos. O problema de partida é a dispersão de registros de clientes, equipamentos, diagnósticos e orçamentos, tratada como hipótese de demanda a ser validada com o público externo. O desenvolvimento utiliza o modelo incremental e reúne definição da equipe, estrutura organizacional, levantamento de requisitos, três diagramas UML e um banco de dados relacional com seis tabelas. O programa C# implementa cadastros, abertura de ordens de serviço, diagnóstico, decisão do cliente, controle de status, histórico e total orçado. Os dados do programa permanecem em memória, enquanto a implementação SQL é demonstrada independentemente em SQLite, conforme permitido pelo modelo da disciplina. Uma interface web local apresenta consultas sobre dados fictícios. Os testes verificaram regras de negócio, tratamento de entradas inválidas e restrições do banco, incluindo o bloqueio de reparos sem aprovação e a exclusão de ordens canceladas do total orçado. Os resultados demonstram o funcionamento técnico do protótipo, sem constituir comprovação de implantação ou impacto em uma comunidade. A publicação no GitHub, a gravação do pitch e a validação externa integram a etapa de finalização do grupo.
+O projeto TechFix apresenta uma solução acadêmica para organizar o atendimento de uma assistência técnica de computadores, notebooks e celulares. A proposta considera pessoas físicas e pequenos negócios que dependem desses equipamentos e precisam de informações claras sobre os reparos. O problema de partida é a dispersão de registros de clientes, equipamentos, diagnósticos e orçamentos, tratada como hipótese de demanda a ser validada com o público externo. O desenvolvimento utiliza o modelo incremental e reúne definição da equipe, estrutura organizacional, levantamento de requisitos, três diagramas UML e um banco de dados relacional com seis tabelas. O programa C# implementa cadastros, abertura de ordens de serviço, diagnóstico, decisão do cliente, controle de status, histórico e total orçado. Os dados do programa permanecem em memória, enquanto a implementação SQL é demonstrada independentemente em SQLite, conforme permitido pelo modelo da disciplina. Uma interface web local apresenta consultas sobre dados fictícios. Os testes verificaram regras de negócio, tratamento de entradas inválidas e restrições do banco, incluindo o bloqueio de reparos sem aprovação e a exclusão de ordens canceladas do total orçado. Os resultados demonstram o funcionamento técnico do protótipo, sem constituir comprovação de implantação ou impacto em uma comunidade. Os arquivos foram publicados em repositório público no GitHub. A gravação do pitch e a validação externa permanecem na etapa de finalização do grupo.
 
 Palavras chave: assistência técnica; ordens de serviço; C#; UML; banco de dados.
 
@@ -75,7 +75,7 @@ O grupo tem seis integrantes, dentro do intervalo de cinco a dez alunos exigido.
 ## 2.1 Organização do trabalho
 Cada responsável revisa sua frente e submete as alterações para conferência de outro integrante. O líder acompanha as pendências e reúne a versão que será entregue. A postagem no Classroom deve ser feita por um único aluno.
 
-A parcial de 28 de setembro de 2026 já foi entregue, conforme informado pelo grupo. A data final ainda precisa ser confirmada no Classroom; não se estabelece neste relatório um prazo que não consta dos materiais recebidos.
+A parcial de 28 de setembro de 2026 já foi entregue, conforme informado pelo grupo. A entrega final foi informada pelo grupo para 3 de novembro de 2026; o horário limite deve ser conferido no Classroom.
 
 # 2.2 Cronograma de referência
 O quadro organiza o ciclo em semanas relativas. É um planejamento de referência, não uma comprovação das datas reais de execução. A equipe deve ajustar a finalização ao prazo confirmado pela professora.
@@ -96,7 +96,7 @@ O quadro organiza o ciclo em semanas relativas. É um planejamento de referênci
 ## 2.3 Critérios de conclusão
 Uma etapa termina quando seus arquivos existem, a explicação está no relatório e a evidência pode ser reproduzida. Funcionalidades exigem demonstração; diagramas exigem coerência com o sistema; publicações exigem verificação do link por outra pessoa.
 
-A consolidação técnica foi realizada em 24 de outubro de 2026. As publicações, a gravação do pitch, a confirmação do prazo e a validação com um representante do público ainda dependem da participação do grupo. O guia de finalização reúne essas ações.
+A consolidação técnica foi realizada em 24 de outubro de 2026. Em 2 de novembro de 2026, os 48 arquivos do pacote foram publicados e conferidos no GitHub, com acesso público. Permanecem a gravação e publicação do pitch, as capturas nativas e a validação externa. O guia registra essas ações.
 
 # 3 ESTRUTURA ORGANIZACIONAL
 ## 3.1 Caracterização da TechFix
@@ -261,17 +261,17 @@ A orientação geral inclui apresentação de sistema web e planejamento DevOps 
 
 web/ABRIR.cmd abre a página sem instalar dependências. A busca ignora acentos e maiúsculas; Limpar filtros restaura a listagem. As métricas representam o conjunto inteiro e os filtros afetam apenas as linhas. A busca sem acento, a combinação com Cancelada, o resultado vazio e a limpeza dos filtros foram verificados no navegador. A captura acompanha o pacote.
 ## 5.8 Versionamento e disponibilização
-O planejamento prevê um repositório único com as pastas csharp, banco, diagramas, evidencias, web e documentacao. Cada alteração deve descrever seu objetivo, passar por revisão de outro integrante e gerar nova evidência quando mudar o comportamento.
+O projeto foi publicado em um repositório único com as pastas csharp, banco, diagramas, evidencias, web e documentacao. Cada alteração deve descrever seu objetivo, passar por revisão de outro integrante e gerar nova evidência quando mudar o comportamento.
 
 | Etapa | Procedimento previsto |
 |---|---|
-| Versionar | Publicar fontes e scripts no GitHub, sem arquivos temporários ou dados reais. |
+| Versionar | Fontes, scripts, documentação e evidências publicados; preservar o histórico das próximas alterações. |
 | Verificar | Compilar, executar os testes e conferir integridade e consultas SQL. |
 | Revisar | Conferir texto, diagramas e instruções com outro integrante. |
 | Distribuir | Identificar uma versão final e usar seus links no relatório. |
 | Recuperar | Preservar a versão anterior no histórico para corrigir erros. |
 
-O quadro descreve um plano. Não se afirma que existe integração contínua configurada, hospedagem ativa ou GitHub publicado.
+O GitHub já está publicado e com acesso público. O quadro descreve o fluxo de revisão das próximas alterações. Não há integração contínua configurada nem hospedagem da interface web.
 
 # 5.9 Evidência da interface web
 ![Figura 7 Interface web local verificada no navegador](../evidencias/09_web.png)
@@ -455,29 +455,28 @@ Q4 lista o histórico do cliente 1 com equipamento, data, estado, serviço, quan
 
 A saída real está em evidencias/execucao_sql.txt. A integridade retornou ok e nenhuma violação de FK. Dez verificações adicionais confirmaram bloqueios de duplicidade, referências inválidas, valores negativos e estados incompatíveis, além do cálculo com mais de um serviço. As transcrições devem ser complementadas por capturas nativas do gerenciador para atender literalmente ao modelo do relatório.
 
-# 7 PITCH
-O vídeo deve apresentar a empresa e demonstrar as entregas em até dez minutos. O roteiro separado prevê nove minutos e reserva um minuto para transições e pausas.
+# 7 PITCH E ACESSO AOS ARQUIVOS
+O pitch deverá apresentar a empresa, o modelo incremental, os diagramas UML, o programa C#, o banco e a interface web. O roteiro separado prevê nove minutos, com até um minuto para transições, respeitando o limite total de dez minutos.
 
-| Tempo | Integrante | Conteúdo |
-|---|---|---|
-| 00:00 a 01:00 | Leonardo | Empresa, público, problema e objetivo. |
-| 01:00 a 02:00 | Evelyn | Equipe, modelo incremental e DevOps. |
-| 02:00 a 03:20 | Rodrigo | Requisitos e três diagramas UML. |
-| 03:20 a 05:50 | Matheus | Programa, aprovação, recusa, histórico e total. |
-| 05:50 a 07:40 | Elen | DER, scripts e resultados SQL. |
-| 07:40 a 09:00 | Rosilene | Web, testes, limites e conclusão. |
+## 7.1 Situação do vídeo
+O vídeo ainda não foi gravado nem publicado. Após a gravação, o grupo deverá publicá-lo no YouTube como Não listado, conferir o acesso e inserir o endereço real neste capítulo. O roteiro distribui a apresentação entre os seis integrantes.
 
-## 7.1 Publicação
-O vídeo ainda não foi gravado. Após a gravação, publicar no YouTube como Não listado e verificar o acesso com outra pessoa. O endereço real deve ser incluído neste capítulo antes da entrega. Se optar por restrição de acesso, o grupo deve assegurar que a professora consiga assistir.
+## 7.2 Repositório público no GitHub
+Em 2 de novembro de 2026, foram publicados e conferidos os 48 arquivos do pacote. O repositório está público e pode ser consultado pelos colegas e pela professora sem convite. A visualização pública não concede permissão de edição.
 
-| Entrega | Situação desta versão |
-|---|---|
-| GitHub | Pendente de publicação; fontes prontos no pacote. |
-| Pasta C# no GitHub | Inserir o endereço real da pasta csharp após publicar. |
-| Pasta SQL no GitHub | Inserir o endereço real da pasta banco com os três scripts. |
-| YouTube | Pendente de gravação e publicação. |
+Repositório: [Acessar o projeto TechFix no GitHub](https://github.com/matheuscarlosdeoliveira-debug/techfix-projeto-extensao-2026).
 
-Não foram inventados endereços para preencher o trabalho. Este capítulo deve receber os links reais antes da postagem no Classroom.
+Programa C#: [Acessar o código e o projeto C#](https://github.com/matheuscarlosdeoliveira-debug/techfix-projeto-extensao-2026/tree/main/csharp).
+
+Banco de dados: [Acessar os scripts SQL e a base SQLite](https://github.com/matheuscarlosdeoliveira-debug/techfix-projeto-extensao-2026/tree/main/banco).
+
+Diagramas: [Acessar os modelos UML e DER](https://github.com/matheuscarlosdeoliveira-debug/techfix-projeto-extensao-2026/tree/main/diagramas).
+
+Documentação: [Acessar o relatório e os materiais de apoio](https://github.com/matheuscarlosdeoliveira-debug/techfix-projeto-extensao-2026/tree/main/documentacao).
+
+Interface web: [Acessar os arquivos do protótipo local](https://github.com/matheuscarlosdeoliveira-debug/techfix-projeto-extensao-2026/tree/main/web).
+
+Os links são clicáveis neste PDF. A pasta web contém o código da demonstração local; o repositório não representa um site hospedado. O link do YouTube continua pendente e será incluído após a publicação real do vídeo.
 
 # 8 CONCLUSÃO
 A consolidação do TechFix reuniu caracterização da empresa, organização de seis integrantes, planejamento incremental e um protótipo de ordens de serviço. Requisitos, casos de uso, classes, atividades e banco representam o mesmo contexto de negócio, permitindo relacionar a análise com as entregas práticas.
@@ -490,7 +489,7 @@ Os objetivos técnicos delimitados foram demonstrados localmente. O console mant
 
 A contribuição extensionista depende de validação. Sem entrevistas, aplicação em uma assistência ou medição de uso, não se afirma redução de tempo ou aumento de satisfação. A próxima etapa é apresentar a solução a um representante do público e registrar seu retorno.
 
-A finalização acadêmica inclui publicar o GitHub, gravar o pitch, inserir links, acrescentar capturas nativas e confirmar o prazo final. O conjunto técnico permite demonstrar de forma verificável o que foi implementado e testado, distinguindo esses resultados das atividades ainda pendentes.
+A publicação no GitHub foi concluída e seus links foram incorporados ao relatório. A finalização acadêmica inclui gravar e publicar o pitch, inserir o link do vídeo, acrescentar capturas nativas e conferir o horário de entrega. O conjunto técnico permite demonstrar de forma verificável o que foi implementado e testado, distinguindo esses resultados das atividades ainda pendentes.
 
 # 9 REFERÊNCIAS BIBLIOGRÁFICAS
 CUNHA, Priscilla Viana. Projeto de extensão em desenvolvimento de sistemas. São Paulo: Universidade Nove de Julho, 2026. Material de orientação disponibilizado à turma no arquivo CONCEITO DO PRECISA SER FEITO.pdf.
@@ -523,6 +522,6 @@ A consolidação parte de TechFix_trabalho de Elen e Projeto_TechFix de Rodrigo,
 | Evidências de execução | Transcrições reais; capturas nativas a complementar. |
 | Web e planejamento DevOps | Capítulo 5 e pasta web. |
 | Referências | Capítulo 9. |
-| GitHub e vídeo de até 10 minutos | Capítulo 7; publicações pendentes. |
+| GitHub e vídeo de até 10 minutos | GitHub publicado com links no capítulo 7; vídeo ainda pendente. |
 
-Antes da entrega, conferir nomes e RAs, prazo e links reais. Abrir o GitHub e o vídeo em uma sessão diferente. Não apresentar os exemplos como atendimentos reais nem relatar validação externa antes de realizá-la.
+Antes da entrega, conferir nomes e RAs, horário limite e link do vídeo. Abrir o GitHub e o vídeo em uma sessão diferente. Não apresentar os exemplos como atendimentos reais nem relatar validação externa antes de realizá-la.

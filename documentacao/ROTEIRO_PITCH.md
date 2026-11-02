@@ -45,7 +45,7 @@ Meta de duração: 9 minutos, reservando até 1 minuto para transições. Limite
 
 **Mostrar:** página web, filtro “joao”, combinação com Cancelada, limpeza dos filtros e registros de testes.
 
-“A interface web é um protótipo de consulta com dados fictícios. A busca ignora acentos e pode ser combinada com a situação. Os testes do C# cobriram regras e entradas inválidas; os testes SQL verificaram vínculos, duplicidades, valores e cálculo. A solução ainda não possui autenticação, integração ou uso comercial. A validação com o público externo é uma próxima etapa. O projeto nos permitiu relacionar análise, orientação a objetos, lógica e banco no mesmo problema. Os links reais do código e do vídeo serão incluídos no relatório após a publicação.”
+“A interface web é um protótipo de consulta com dados fictícios. A busca ignora acentos e pode ser combinada com a situação. Os testes do C# cobriram regras e entradas inválidas; os testes SQL verificaram vínculos, duplicidades, valores e cálculo. A solução ainda não possui autenticação, integração ou uso comercial. A validação com o público externo é uma próxima etapa. O projeto nos permitiu relacionar análise, orientação a objetos, lógica e banco no mesmo problema. Os links do código e do banco já estão no relatório; o link do vídeo será incluído após sua publicação.”
 
 Depois da publicação, ajuste a última frase para indicar os links disponíveis, sem continuar dizendo que estão pendentes.
 

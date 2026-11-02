@@ -4,18 +4,13 @@
 
 Relatório consolidado, código C# compilado e testado, seis tabelas SQL com dados e consultas executadas, cinco diagramas, interface web local, evidências, roteiro de pitch e plano de validação externa.
 
-Esta é uma versão técnica consolidada. A entrega acadêmica só estará encerrada depois das publicações e ações abaixo. Não há um vídeo produzido nem um GitHub criado neste pacote.
+Esta é uma versão técnica consolidada. O GitHub já está publicado e público. A entrega acadêmica será encerrada após a gravação e publicação do vídeo e as demais ações abaixo.
 
-## Publicar no GitHub
+## GitHub concluído
 
-1. O líder escolhe uma conta e cria o repositório `techfix-projeto-extensao-2026` ou outro nome decidido pelo grupo. O nome é sugestão, não repositório existente.
-2. Envie o conteúdo da pasta TechFix, preservando a estrutura. A base fornecida contém somente dados fictícios.
-3. Revise os nomes e RAs antes de tornar o repositório público. Se usar repositório privado, conceda acesso à professora pelo procedimento que ela indicar.
-4. Abra o link em outra sessão ou com outro integrante. Confira o acesso ao relatório, C#, diagramas e aos três scripts SQL.
-5. Substitua os registros de publicação pendente do capítulo 7 pelos URLs reais do repositório e das pastas `csharp` e `banco`.
-6. Registre uma versão final; não altere silenciosamente os arquivos depois de gerar o PDF de entrega.
+Em 02/11/2026, os 48 arquivos do pacote foram publicados e conferidos em https://github.com/matheuscarlosdeoliveira-debug/techfix-projeto-extensao-2026. A visibilidade pública foi confirmada. Colegas e professora podem visualizar e baixar sem convite. Para editar, é necessário convite separado.
 
-A conexão GitHub foi confirmada para a conta matheuscarlosdeoliveira-debug, mas nenhum repositório estava acessível durante a verificação. A integração disponível não oferece criação de repositório. O navegador apresentou a tela de login ao abrir https://github.com/new. Depois de criar o repositório e autorizar seu acesso à integração, o envio dos arquivos poderá continuar; não envie senhas no chat.
+Os links do repositório, código C#, SQL, diagramas, documentação e arquivos web foram inseridos no PDF e no Word. O arquivo STATUS_DO_PROJETO.md acompanha as etapas futuras.
 
 ## Gravar e publicar o pitch
 
@@ -32,11 +27,11 @@ Não foi fornecida uma assistência parceira nem uma pessoa para contato. Não e
 ## Revisão antes do Classroom
 
 - Conferir nomes, RAs, nome da professora e divisão confirmada de tarefas.
-- Confirmar a data final. O prazo de 28/09/2026 era da parcial já entregue.
+- Conferir o horário limite de 03/11/2026. O prazo de 28/09/2026 era da parcial já entregue.
 - Confirmar com a professora se a interface web demonstrativa e o planejamento DevOps atendem à menção da última página da orientação, pois o exemplo detalha principalmente C# e SQL.
 - Inserir GitHub e YouTube reais e testar o acesso.
 - Atualizar sumário após qualquer mudança de paginação e exportar um novo PDF.
 - Conferir o PDF visualmente, incluindo diagramas e código.
 - Fazer a postagem por apenas um integrante, preferencialmente o líder.
 
-O material informa redução da nota máxima para atraso e limite de uma semana. Sem a data final confirmada, não se presume que esse prazo esteja aberto ou vencido.
+O material informa redução da nota máxima para atraso e limite de uma semana. O grupo informou entrega em 03/11/2026; conferir o horário exato no Classroom e evitar depender de prazo adicional.

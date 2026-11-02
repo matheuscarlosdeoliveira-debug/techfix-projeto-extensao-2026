@@ -43,6 +43,13 @@ Na pasta `csharp`, compile `Program.cs` e `Testes.cs` juntos, definindo `Testes`
 
 ## Situação da entrega
 
-A parcial de 28/09/2026 foi entregue. Faltam a publicação do GitHub e do vídeo, inserção dos links reais, confirmação do prazo final e validação externa da demanda. O relatório explicita esses limites; nenhum estudo de campo ou publicação foi inventado.
+GitHub publicado em 02/11/2026, com acesso público. Os colegas e a professora podem visualizar os arquivos sem convite. Acesso de edição depende de autorização separada.
 
-Os nomes e RAs estão no relatório e no fonte conforme os documentos fornecidos. Antes de publicar um repositório público, o grupo deve decidir quais dados acadêmicos manter acessíveis; o acesso da professora às entregas deve estar garantido.
+- Repositório: https://github.com/matheuscarlosdeoliveira-debug/techfix-projeto-extensao-2026
+- Código C#: https://github.com/matheuscarlosdeoliveira-debug/techfix-projeto-extensao-2026/tree/main/csharp
+- Scripts SQL: https://github.com/matheuscarlosdeoliveira-debug/techfix-projeto-extensao-2026/tree/main/banco
+- Relatório: https://github.com/matheuscarlosdeoliveira-debug/techfix-projeto-extensao-2026/tree/main/documentacao
+
+A parcial de 28/09/2026 foi entregue. A entrega final foi informada para 03/11/2026. Permanecem vídeo, capturas nativas, validação externa conforme orientação da professora e revisão final. Consulte [STATUS_DO_PROJETO.md](STATUS_DO_PROJETO.md) para acompanhar os checks.
+
+O PDF e o Word desta pasta recebem os links reais nesta atualização. Não há vídeo publicado nem site web hospedado.
