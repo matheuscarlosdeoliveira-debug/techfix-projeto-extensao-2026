@@ -1,0 +1,21 @@
+TECHFIX | UNINOVE 2026 | Protótipo acadêmico local
+
+1 Cliente | 2 Equipamento | 3 Técnico | 4 Serviço | 5 Abrir OS
+6 Listar OS | 7 Diagnóstico | 8 Aprovar/recusar | 9 Avançar status
+10 Histórico do cliente | 11 Relatório | 12 Ver cadastros | 0 Sair
+Opção: Informe um inteiro entre 0 e 12.
+Opção: Informe um inteiro entre 0 e 12.
+Opção: Descrição: Valor R$: Valor inválido. Use vírgula e até duas casas decimais, sem milhar.
+Valor R$: Valor inválido. Use vírgula e até duas casas decimais, sem milhar.
+Valor R$: Valor inválido. Use vírgula e até duas casas decimais, sem milhar.
+Valor R$: Serviço cadastrado.
+
+1 Cliente | 2 Equipamento | 3 Técnico | 4 Serviço | 5 Abrir OS
+6 Listar OS | 7 Diagnóstico | 8 Aprovar/recusar | 9 Avançar status
+10 Histórico do cliente | 11 Relatório | 12 Ver cadastros | 0 Sair
+Opção: Nenhuma OS encontrada.
+
+1 Cliente | 2 Equipamento | 3 Técnico | 4 Serviço | 5 Abrir OS
+6 Listar OS | 7 Diagnóstico | 8 Aprovar/recusar | 9 Avançar status
+10 Histórico do cliente | 11 Relatório | 12 Ver cadastros | 0 Sair
+Opção: Sessão encerrada. Dados em memória não são persistidos.

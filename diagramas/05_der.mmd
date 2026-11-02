@@ -1,0 +1,46 @@
+erDiagram
+ Cliente ||--o{ Equipamento : possui
+ Equipamento ||--o{ OrdemServico : recebe
+ Tecnico ||--o{ OrdemServico : atende
+ OrdemServico ||--o{ OS_Servico : possui
+ Servico ||--o{ OS_Servico : compoe
+ Cliente {
+ INTEGER id_cliente PK
+ TEXT nome
+ TEXT telefone UK
+ }
+ Equipamento {
+ INTEGER id_equipamento PK
+ INTEGER id_cliente FK
+ TEXT tipo
+ TEXT modelo
+ TEXT numero_serie UK
+ }
+ Tecnico {
+ INTEGER id_tecnico PK
+ TEXT nome
+ TEXT especialidade
+ }
+ Servico {
+ INTEGER id_servico PK
+ TEXT descricao
+ INTEGER valor_centavos
+ }
+ OrdemServico {
+ INTEGER id_os PK
+ INTEGER id_equipamento FK
+ INTEGER id_tecnico FK
+ TEXT data_abertura
+ TEXT problema
+ TEXT diagnostico
+ TEXT status
+ TEXT aprovacao
+ INTEGER urgente
+ INTEGER taxa_urgencia_centavos
+ }
+ OS_Servico {
+ INTEGER id_os PK,FK
+ INTEGER id_servico PK,FK
+ INTEGER quantidade
+ INTEGER valor_unitario_centavos
+ }

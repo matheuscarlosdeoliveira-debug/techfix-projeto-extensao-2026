@@ -1,0 +1,24 @@
+PASSOU | Cadastros relacionados
+PASSOU | Nome vazio
+PASSOU | Telefone duplicado
+PASSOU | Cliente inexistente
+PASSOU | Série duplicada sem distinção de caixa
+PASSOU | Valor negativo
+PASSOU | Equipamento inexistente
+PASSOU | Técnico inexistente
+PASSOU | Serviço inexistente
+PASSOU | Quantidade inválida
+PASSOU | Quantidade e taxa fixa de R$ 25,00
+PASSOU | Preço histórico preservado
+PASSOU | Reparo antes da aprovação
+PASSOU | Aprovação sem diagnóstico
+PASSOU | Aprovação e início do reparo
+PASSOU | Conclusão do reparo
+PASSOU | Reabertura de OS concluída
+PASSOU | Recusa cancela OS
+PASSOU | Reparo de OS cancelada
+PASSOU | Histórico filtrado por cliente
+PASSOU | OS inexistente
+TOTAL: 21 testes aprovados.
+
+PASSOU | Entradas inválidas no menu e em valores monetários

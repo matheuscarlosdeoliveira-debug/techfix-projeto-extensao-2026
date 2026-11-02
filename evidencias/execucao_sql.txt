@@ -1,0 +1,19 @@
+Banco criado: techfix.sqlite
+
+cliente | tipo | modelo | numero_serie
+Ana Lima | Celular | Motorola G | SN003
+João Pereira | Celular | Samsung Galaxy S21 | SN002
+Maria Souza | Notebook | Dell Inspiron 15 | SN001
+
+id_os | cliente | tecnico | status | total_reais
+2 | João Pereira | Carlos Rocha | Em andamento | 375.00
+
+id_tecnico | nome | total_reais
+1 | Carlos Rocha | 375.00
+2 | Fernanda Alves | 120.00
+
+id_os | modelo | data_abertura | status | descricao | quantidade | valor_unitario_reais
+1 | Dell Inspiron 15 | 2026-10-24 | Concluída | Formatação e reinstalação | 1 | 120.00
+
+Integridade: ok
+Violações FK: []

@@ -1,0 +1,53 @@
+@startuml
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+class Cliente {
+ +Id: int
+ +Nome: string
+ +Telefone: string
+}
+class Equipamento {
+ +Id: int
+ +ClienteId: int
+ +Tipo: string
+ +Modelo: string
+ +NumeroSerie: string
+}
+class Tecnico {
+ +Id: int
+ +Nome: string
+ +Especialidade: string
+}
+class Servico {
+ +Id: int
+ +Descricao: string
+ +Valor: decimal
+}
+class OrdemServico {
+ +Id: int
+ +EquipamentoId: int
+ +TecnicoId: int
+ +DataAbertura: DateTime
+ +Problema: string
+ +Diagnostico: string
+ +Status: string
+ +Aprovacao: string
+ +Urgente: bool
+ +Itens: List<ItemServico>
+ +Total(): decimal
+ +RegistrarDiagnostico(texto: string): void
+ +Decidir(aprovado: bool): void
+ +Avancar(): void
+}
+class ItemServico {
+ +ServicoId: int
+ +Quantidade: int
+ +ValorUnitario: decimal
+ +Subtotal(): decimal
+}
+Cliente "1" -- "0..*" Equipamento
+Equipamento "1" -- "0..*" OrdemServico
+Tecnico "1" -- "0..*" OrdemServico
+OrdemServico "1" -- "1..*" ItemServico
+Servico "1" -- "0..*" ItemServico
+@enduml

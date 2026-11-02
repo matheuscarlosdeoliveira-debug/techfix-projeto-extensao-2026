@@ -1,0 +1,10 @@
+PASSOU | Chave estrangeira inexistente
+PASSOU | Telefone duplicado
+PASSOU | Série duplicada
+PASSOU | Valor negativo
+PASSOU | Quantidade zero
+PASSOU | Estado incompatível com aprovação
+PASSOU | Taxa incompatível
+PASSOU | Status desconhecido
+PASSOU | Vários serviços sem duplicar taxa de urgência
+PASSOU | Integridade e vínculos da base

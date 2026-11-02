@@ -1,0 +1,9 @@
+TECHFIX | UNINOVE 2026 | Protótipo acadêmico local
+DADOS FICTÍCIOS | Demonstração executada pelo código
+OS #1 | Maria Souza | Dell Inspiron 15 | Concluída | Aprovado | R$ 120,00
+OS #2 | João Pereira | Samsung Galaxy S21 | Em andamento | Aprovado | R$ 375,00
+OS #3 | Ana Lima | Motorola G | Cancelada | Recusado | R$ 180,00
+Total orçado não cancelado: R$ 495,00
+Histórico do cliente #1:
+OS #1 | Maria Souza | Dell Inspiron 15 | Concluída | Aprovado | R$ 120,00
+Bloqueio esperado: Transição não permitida. Verifique aprovação e status.

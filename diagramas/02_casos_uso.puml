@@ -1,0 +1,28 @@
+@startuml
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+left to right direction
+actor Operador
+rectangle "TechFix em C#" {
+ usecase "UC01 Cadastrar cliente" as UC01
+ usecase "UC02 Cadastrar equipamento" as UC02
+ usecase "UC03 Cadastrar técnico" as UC03
+ usecase "UC04 Cadastrar serviço" as UC04
+ usecase "UC05 Abrir OS" as UC05
+ usecase "UC06 Registrar diagnóstico" as UC06
+ usecase "UC07 Registrar aprovação ou recusa" as UC07
+ usecase "UC08 Avançar status" as UC08
+ usecase "UC09 Consultar OS e histórico" as UC09
+ usecase "UC10 Consultar total orçado" as UC10
+}
+Operador -- UC01
+Operador -- UC02
+Operador -- UC03
+Operador -- UC04
+Operador -- UC05
+Operador -- UC06
+Operador -- UC07
+Operador -- UC08
+Operador -- UC09
+Operador -- UC10
+@enduml

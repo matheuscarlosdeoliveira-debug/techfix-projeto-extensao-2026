@@ -1,0 +1,9 @@
+bin/
+obj/
+*.pdb
+.vs/
+__pycache__/
+*.sqlite-wal
+*.sqlite-shm
+~$*
+*.tmp

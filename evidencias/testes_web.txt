@@ -1,0 +1,6 @@
+24/10/2026 | Verificação no navegador
+PASSOU | Três ordens e métricas 3, 1 e R$ 495,00
+PASSOU | Busca joao encontra João Pereira
+PASSOU | Busca joao combinada com Cancelada retorna zero
+PASSOU | Limpar filtros restaura três ordens
+Captura: 09_web.png

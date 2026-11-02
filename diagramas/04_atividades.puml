@@ -1,0 +1,20 @@
+@startuml
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+start
+:Selecionar equipamento técnico e serviço;
+while (Vínculos válidos?) is (não)
+ :Informar erro e corrigir;
+endwhile (sim)
+:Abrir OS e calcular orçamento;
+:Registrar diagnóstico;
+:Registrar decisão informada pelo cliente;
+if (Orçamento aprovado?) then (sim)
+ :Avançar para Em andamento;
+ :Executar reparo e verificação técnica;
+ :Avançar para Concluída;
+else (não)
+ :Cancelar OS por recusa;
+endif
+stop
+@enduml
