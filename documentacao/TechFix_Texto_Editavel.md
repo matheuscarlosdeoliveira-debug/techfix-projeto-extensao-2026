@@ -242,18 +242,25 @@ A leitura monetária utiliza Decimal.TryParse, cultura pt BR, sem milhar e com a
 ## 5.5 Exemplo numérico
 Troca de tela de R$ 350,00 com quantidade 1 e urgência totaliza R$ 375,00. Reinstalação de R$ 120,00 sem urgência permanece em R$ 120,00. As duas OS somam R$ 495,00. Uma OS recusada de R$ 180,00 continua na listagem e é excluída desse total.
 
-# 5.6 Evidências e testes do programa
-![Figura 6 Captura nativa da execução interativa pelo grupo](../evidencias/15_csharp_historico_grupo.png)
+# 5.6 Abertura da ordem e cálculo da urgência
+![Figura 6 Captura nativa da abertura de uma OS urgente](../evidencias/12_csharp_abertura_grupo.png)
+
+A sessão interativa utilizou o equipamento 1, da cliente Maria Souza, e a técnica 2, Fernanda Alves. O problema informado foi Notebook lento. O serviço escolhido foi Formatação e reinstalação, quantidade 1, com valor de R$ 120,00.
+
+Ao informar urgência, o programa acrescentou a taxa fixa de R$ 25,00 e exibiu a confirmação de abertura da OS 1, no total de R$ 145,00. A imagem foi fornecida pelo grupo e preservada sem alterar seu conteúdo.
+
+# 5.7 Evidências e testes do programa
+![Figura 7 Captura nativa da execução interativa pelo grupo](../evidencias/15_csharp_historico_grupo.png)
 
 Na sessão do grupo, a OS 1 de Maria Souza recebeu diagnóstico, aprovação e os estados Em andamento e Concluída. Serviço de R$ 120,00 e urgência de R$ 25,00 totalizaram R$ 145,00, conferidos no relatório e no histórico do cliente. As quatro capturas nativas estão na pasta evidencias.
 
 É um cenário distinto do modo roteiro, que mantém três OS fictícias e R$ 495,00 não cancelados. Os registros anteriores preservam 21 testes de domínio e um cenário de entradas inválidas. A captura comprova uso local, sem representar validação com público externo.
 
-# 5.7 Interface web e planejamento DevOps
+# 5.8 Interface web e planejamento DevOps
 A orientação geral inclui apresentação de sistema web e planejamento DevOps no pitch. O pacote oferece web/index.html como protótipo de consulta. A página apresenta as três OS fictícias, resumo dos valores, busca por cliente ou equipamento e filtro de situação. Não altera dados e não se conecta ao console ou ao banco.
 
 web/ABRIR.cmd abre a página sem instalar dependências. A busca ignora acentos e maiúsculas; Limpar filtros restaura a listagem. As métricas representam o conjunto inteiro e os filtros afetam apenas as linhas. A busca sem acento, a combinação com Cancelada, o resultado vazio e a limpeza dos filtros foram verificados no navegador. A captura acompanha o pacote.
-## 5.8 Versionamento e disponibilização
+## 5.9 Versionamento e disponibilização
 O projeto foi publicado em um repositório único com as pastas csharp, banco, diagramas, evidencias, web e documentacao. Cada alteração deve descrever seu objetivo, passar por revisão de outro integrante e gerar nova evidência quando mudar o comportamento.
 
 | Etapa | Procedimento previsto |
@@ -266,8 +273,8 @@ O projeto foi publicado em um repositório único com as pastas csharp, banco, d
 
 O GitHub já está publicado e com acesso público. O quadro descreve o fluxo de revisão das próximas alterações. Não há integração contínua configurada nem hospedagem da interface web.
 
-# 5.9 Evidência da interface web
-![Figura 7 Interface web local verificada no navegador](../evidencias/09_web.png)
+# 5.10 Evidência da interface web
+![Figura 8 Interface web local verificada no navegador](../evidencias/09_web.png)
 
 A página exibe três ordens fictícias, uma em atendimento e R$ 495,00 em orçamento não cancelado. A verificação encontrou João Pereira pela busca joao, combinou esse termo com Cancelada e apresentou resultado vazio; Limpar filtros restaurou as três linhas. O registro está em evidencias/testes_web.txt.
 
@@ -294,7 +301,7 @@ Cliente tem zero ou muitos equipamentos; equipamento e técnico têm zero ou mui
 PRAGMA foreign_keys = ON deve ser habilitado em cada conexão para aplicar os vínculos do SQLite (SQLITE, s.d.).
 
 # 6.4 Diagrama entidade relacionamento
-![Figura 8 DER lógico com atributos tipos e cardinalidades](../diagramas/05_der.png)
+![Figura 9 DER lógico com atributos tipos e cardinalidades](../diagramas/05_der.png)
 
 O modelo apresenta chaves e tipos para apoiar a implementação. O cliente é obtido pelo equipamento e o preço histórico permanece na associação ao serviço. A taxa é registrada uma vez na OS e acrescentada depois da soma dos itens.
 
@@ -444,7 +451,7 @@ WHERE e.id_cliente=1 ORDER BY o.data_abertura,o.id_os;
 Q4 lista o histórico do cliente 1 com equipamento, data, estado, serviço, quantidade e preço unitário registrado.
 
 # 6.10 Evidências e testes do banco
-![Figura 9 Transcrição da execução dos scripts e consultas](../evidencias/07_execucao_sql.png)
+![Figura 10 Transcrição da execução dos scripts e consultas](../evidencias/07_execucao_sql.png)
 
 A saída real está em evidencias/execucao_sql.txt. A integridade retornou ok e nenhuma violação de FK. Dez verificações adicionais confirmaram bloqueios de duplicidade, referências inválidas, valores negativos e estados incompatíveis, além do cálculo com mais de um serviço. As transcrições devem ser complementadas por capturas nativas do gerenciador para atender literalmente ao modelo do relatório.
 
@@ -510,9 +517,9 @@ A consolidação parte de TechFix_trabalho de Elen e Projeto_TechFix de Rodrigo,
 | Mínimo 5 RF e 2 RNF | Dez RF e quatro RNF no capítulo 4. |
 | Três diagramas UML | Figuras 2, 3 e 4 e respectivas explicações. |
 | C# com lógica e menu | Capítulo 5, fonte e testes. |
-| DER com pelo menos 5 tabelas | Figura 8 e seis tabelas. |
+| DER com pelo menos 5 tabelas | Figura 9 e seis tabelas. |
 | Criação INSERT e 3 SELECT | Três scripts e quatro consultas executadas. |
-| Evidências de execução | Captura nativa C# na Figura 6; capturas do banco ainda pendentes. |
+| Evidências de execução | Capturas nativas C# nas Figuras 6 e 7; capturas do banco ainda pendentes. |
 | Web e planejamento DevOps | Capítulo 5 e pasta web. |
 | Referências | Capítulo 9. |
 | GitHub e vídeo de até 10 minutos | GitHub publicado com links no capítulo 7; vídeo ainda pendente. |

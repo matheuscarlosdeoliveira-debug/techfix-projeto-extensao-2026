@@ -18,7 +18,7 @@ Use `ROTEIRO_PITCH.md`. Ensaiem uma vez com cronômetro. Capturem o programa e o
 
 ## Capturas e evidências
 
-As saídas de C# e SQL são reais e foram preservadas em TXT e transcrições visuais. Capturas do navegador, quando presentes, mostram esses registros e a interface web; não representam uma janela nativa de terminal ou um gerenciador SQL. Para atender à preferência do professor por prints dessas ferramentas, executem o C# e as consultas na máquina da apresentação, capturem as janelas e substituam ou complementem as figuras 5, 6 e 9. Não alterem resultados para se parecerem com uma execução que não ocorreu.
+As saídas de C# e SQL são reais e foram preservadas em TXT e transcrições visuais. Capturas do navegador, quando presentes, mostram esses registros e a interface web; não representam uma janela nativa de terminal ou um gerenciador SQL. Para atender à preferência do professor por prints dessas ferramentas, executem o C# e as consultas na máquina da apresentação, capturem as janelas e substituam ou complementem as figuras 5, 6, 7 e 10. Não alterem resultados para se parecerem com uma execução que não ocorreu.
 
 ## Validar a demanda extensionista
 
@@ -38,4 +38,4 @@ O material informa redução da nota máxima para atraso e limite de uma semana.
 
 ## Atualização das capturas C#
 
-Concluído: quatro capturas nativas da sessão do grupo estão em evidencias, numeradas de 12 a 15. A Figura 6 do relatório incorpora a captura de conclusão, total e histórico de R$ 145,00. O cenário anterior de R$ 495,00 é preservado como teste automatizado independente. Continuam pendentes as capturas nativas do gerenciador SQL.
+Concluído: quatro capturas nativas da sessão do grupo estão em evidencias, numeradas de 12 a 15. A Figura 6 apresenta a abertura e a Figura 7 incorpora a captura de conclusão, total e histórico de R$ 145,00. O cenário anterior de R$ 495,00 é preservado como teste automatizado independente. Continuam pendentes as capturas nativas do gerenciador SQL.

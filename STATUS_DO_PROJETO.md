@@ -15,7 +15,7 @@ Atualização: 02/11/2026. Entrega informada pelo grupo: 03/11/2026; horário a 
 - [x] Links reais do GitHub incorporados ao relatório nesta revisão.
 
 - [x] Demonstração interativa do C# conferida: abertura urgente, diagnóstico, aprovação, conclusão, total e histórico de R$ 145,00.
-- [x] Quatro capturas nativas do C# guardadas e captura do histórico incorporada ao relatório.
+- [x] Quatro capturas nativas do C# guardadas e capturas de abertura e histórico incorporadas ao relatório em duas páginas.
 
 ## Pendente
 
