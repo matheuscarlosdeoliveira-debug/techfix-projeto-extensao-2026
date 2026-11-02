@@ -35,3 +35,7 @@ Não foi fornecida uma assistência parceira nem uma pessoa para contato. Não e
 - Fazer a postagem por apenas um integrante, preferencialmente o líder.
 
 O material informa redução da nota máxima para atraso e limite de uma semana. O grupo informou entrega em 03/11/2026; conferir o horário exato no Classroom e evitar depender de prazo adicional.
+
+## Atualização das capturas C#
+
+Concluído: quatro capturas nativas da sessão do grupo estão em evidencias, numeradas de 12 a 15. A Figura 6 do relatório incorpora a captura de conclusão, total e histórico de R$ 145,00. O cenário anterior de R$ 495,00 é preservado como teste automatizado independente. Continuam pendentes as capturas nativas do gerenciador SQL.

@@ -53,3 +53,7 @@ GitHub publicado em 02/11/2026, com acesso público. Os colegas e a professora p
 A parcial de 28/09/2026 foi entregue. A entrega final foi informada para 03/11/2026. Permanecem vídeo, capturas nativas, validação externa conforme orientação da professora e revisão final. Consulte [STATUS_DO_PROJETO.md](STATUS_DO_PROJETO.md) para acompanhar os checks.
 
 O PDF e o Word desta pasta recebem os links reais nesta atualização. Não há vídeo publicado nem site web hospedado.
+
+## Capturas do C# concluídas
+
+A sessão interativa do grupo demonstrou uma OS urgente de R$ 145,00, com diagnóstico, aprovação, conclusão, total e histórico. As capturas 12 a 15 são nativas, fornecidas pelo grupo. Esse cenário é independente do roteiro automático de R$ 495,00 e da base SQLite. Restam as capturas nativas do banco.

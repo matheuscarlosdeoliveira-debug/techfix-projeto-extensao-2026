@@ -243,18 +243,11 @@ A leitura monetária utiliza Decimal.TryParse, cultura pt BR, sem milhar e com a
 Troca de tela de R$ 350,00 com quantidade 1 e urgência totaliza R$ 375,00. Reinstalação de R$ 120,00 sem urgência permanece em R$ 120,00. As duas OS somam R$ 495,00. Uma OS recusada de R$ 180,00 continua na listagem e é excluída desse total.
 
 # 5.6 Evidências e testes do programa
-![Figura 6 Transcrição da saída real do modo roteiro](../evidencias/06_execucao_csharp.png)
+![Figura 6 Captura nativa da execução interativa pelo grupo](../evidencias/15_csharp_historico_grupo.png)
 
-A figura é uma transcrição visual da execução registrada em evidencias/execucao_csharp.txt. Não é uma captura simulada de janela. Fonte e executável permitem repetir o cenário e realizar capturas nativas durante a preparação do pitch.
+Na sessão do grupo, a OS 1 de Maria Souza recebeu diagnóstico, aprovação e os estados Em andamento e Concluída. Serviço de R$ 120,00 e urgência de R$ 25,00 totalizaram R$ 145,00, conferidos no relatório e no histórico do cliente. As quatro capturas nativas estão na pasta evidencias.
 
-| Verificação | Resultado |
-|---|---|
-| 21 testes do domínio | Aprovados: vínculos, preço histórico, decisão, status e histórico. |
-| 1 cenário de entrada | Aprovado: texto e opção inválida no menu, valores negativos e casas decimais inválidas. |
-| Caminho aprovado | OS 1 concluída, OS 2 em andamento e total R$ 495,00. |
-| Caminho recusado | OS 3 cancelada; avanço bloqueado. |
-
-Testes.cs executa as verificações de domínio. Os registros preservam a execução do cenário e do menu. Esses testes não equivalem a uma avaliação de usabilidade ou a testes completos de produção. O programa não possui autenticação e não foi preparado para dados reais de clientes.
+É um cenário distinto do modo roteiro, que mantém três OS fictícias e R$ 495,00 não cancelados. Os registros anteriores preservam 21 testes de domínio e um cenário de entradas inválidas. A captura comprova uso local, sem representar validação com público externo.
 
 # 5.7 Interface web e planejamento DevOps
 A orientação geral inclui apresentação de sistema web e planejamento DevOps no pitch. O pacote oferece web/index.html como protótipo de consulta. A página apresenta as três OS fictícias, resumo dos valores, busca por cliente ou equipamento e filtro de situação. Não altera dados e não se conecta ao console ou ao banco.
@@ -489,7 +482,7 @@ Os objetivos técnicos delimitados foram demonstrados localmente. O console mant
 
 A contribuição extensionista depende de validação. Sem entrevistas, aplicação em uma assistência ou medição de uso, não se afirma redução de tempo ou aumento de satisfação. A próxima etapa é apresentar a solução a um representante do público e registrar seu retorno.
 
-A publicação no GitHub foi concluída e seus links foram incorporados ao relatório. A finalização acadêmica inclui gravar e publicar o pitch, inserir o link do vídeo, acrescentar capturas nativas e conferir o horário de entrega. O conjunto técnico permite demonstrar de forma verificável o que foi implementado e testado, distinguindo esses resultados das atividades ainda pendentes.
+A publicação no GitHub foi concluída e seus links foram incorporados ao relatório. A finalização acadêmica inclui gravar e publicar o pitch, inserir o link do vídeo, complementar as capturas do banco e conferir o horário de entrega. O conjunto técnico permite demonstrar de forma verificável o que foi implementado e testado, distinguindo esses resultados das atividades ainda pendentes.
 
 # 9 REFERÊNCIAS BIBLIOGRÁFICAS
 CUNHA, Priscilla Viana. Projeto de extensão em desenvolvimento de sistemas. São Paulo: Universidade Nove de Julho, 2026. Material de orientação disponibilizado à turma no arquivo CONCEITO DO PRECISA SER FEITO.pdf.
@@ -519,7 +512,7 @@ A consolidação parte de TechFix_trabalho de Elen e Projeto_TechFix de Rodrigo,
 | C# com lógica e menu | Capítulo 5, fonte e testes. |
 | DER com pelo menos 5 tabelas | Figura 8 e seis tabelas. |
 | Criação INSERT e 3 SELECT | Três scripts e quatro consultas executadas. |
-| Evidências de execução | Transcrições reais; capturas nativas a complementar. |
+| Evidências de execução | Captura nativa C# na Figura 6; capturas do banco ainda pendentes. |
 | Web e planejamento DevOps | Capítulo 5 e pasta web. |
 | Referências | Capítulo 9. |
 | GitHub e vídeo de até 10 minutos | GitHub publicado com links no capítulo 7; vídeo ainda pendente. |

@@ -11,3 +11,5 @@ Verificação técnica original: 24/10/2026. Atualização documental: 02/11/202
 - Extensão: demanda proposta, sem pesquisa ou aplicação externa comprovada.
 
 As transcrições preservam saídas reais. As capturas de navegador não são apresentadas como capturas nativas de terminal ou gerenciador SQL. O guia recomenda complementar as evidências na máquina da apresentação.
+
+Verificação adicional: capturas nativas do usuário demonstram OS 1 de Maria Souza, serviço de R$ 120,00 com taxa urgente de R$ 25,00. Diagnóstico, aprovação, conclusão, total de R$ 145,00 e histórico conferidos visualmente. Essa sessão não substitui os dados de R$ 495,00 do modo roteiro e do SQLite.
