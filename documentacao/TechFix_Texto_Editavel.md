@@ -96,7 +96,7 @@ O quadro organiza o ciclo em semanas relativas. É um planejamento de referênci
 ## 2.3 Critérios de conclusão
 Uma etapa termina quando seus arquivos existem, a explicação está no relatório e a evidência pode ser reproduzida. Funcionalidades exigem demonstração; diagramas exigem coerência com o sistema; publicações exigem verificação do link por outra pessoa.
 
-A consolidação técnica foi realizada em 24 de outubro de 2026. Em 2 de novembro de 2026, os 48 arquivos do pacote foram publicados e conferidos no GitHub, com acesso público. Permanecem a gravação e publicação do pitch, as capturas nativas e a validação externa. O guia registra essas ações.
+A consolidação técnica foi realizada em 24 de outubro de 2026. Em 2 de novembro de 2026, os 48 arquivos do pacote foram publicados e conferidos no GitHub, com acesso público. Permanecem a gravação e publicação do pitch e a validação externa. As capturas nativas de C# e SQL foram incorporadas ao relatório. O guia registra essas ações.
 
 # 3 ESTRUTURA ORGANIZACIONAL
 ## 3.1 Caracterização da TechFix
@@ -450,10 +450,33 @@ WHERE e.id_cliente=1 ORDER BY o.data_abertura,o.id_os;
 
 Q4 lista o histórico do cliente 1 com equipamento, data, estado, serviço, quantidade e preço unitário registrado.
 
-# 6.10 Evidências e testes do banco
-![Figura 10 Transcrição da execução dos scripts e consultas](../evidencias/07_execucao_sql.png)
+# 6.10 Evidência de clientes e equipamentos
+![Figura 10 Consulta de clientes e equipamentos no DB Browser](../evidencias/18_sql_consulta_clientes_grupo.png)
 
-A saída real está em evidencias/execucao_sql.txt. A integridade retornou ok e nenhuma violação de FK. Dez verificações adicionais confirmaram bloqueios de duplicidade, referências inválidas, valores negativos e estados incompatíveis, além do cálculo com mais de um serviço. As transcrições devem ser complementadas por capturas nativas do gerenciador para atender literalmente ao modelo do relatório.
+A execução no DB Browser for SQLite retornou três linhas, sem erros: Ana Lima com Motorola G, João Pereira com Samsung Galaxy S21 e Maria Souza com Dell Inspiron 15. A versão interativa exibiu cliente, tipo e modelo; o script entregue também permite consultar o número de série.
+
+As capturas da estrutura com seis tabelas e da listagem de clientes também estão na pasta evidencias. Elas documentam a abertura e a consulta da base fictícia fornecida ao grupo.
+
+# 6.11 Evidência de ordens em atendimento
+![Figura 11 Consulta de ordens ativas no DB Browser](../evidencias/19_sql_ordens_ativas_grupo.png)
+
+A consulta relacionou ordens, equipamentos, clientes, técnicos e itens de serviço. O resultado foi uma linha: OS 2, João Pereira, técnico Carlos Rocha, status Em andamento e total de R$ 375,00.
+
+O valor corresponde à troca de tela de R$ 350,00 acrescida de R$ 25,00 de urgência. O DB Browser informou execução finalizada sem erros. Ordens concluídas e canceladas não fazem parte deste filtro de atendimentos ativos.
+
+# 6.12 Evidência do total por técnico
+![Figura 12 Total orçado por técnico no DB Browser](../evidencias/20_sql_totais_tecnicos_grupo.png)
+
+A consulta retornou duas linhas sem erros: Carlos Rocha com R$ 375,00 e Fernanda Alves com R$ 120,00. O total não cancelado da base é R$ 495,00. A OS recusada não entra nesse cálculo.
+
+A soma é calculada primeiro por OS e depois por técnico, preservando uma única taxa de urgência por ordem. Trata-se de orçamento, não de recebimentos. O cenário persistido do banco é independente da sessão C# urgente de R$ 145,00 demonstrada pelo grupo.
+
+# 6.13 Evidência do histórico e testes
+![Figura 13 Histórico da cliente no DB Browser](../evidencias/21_sql_historico_grupo.png)
+
+O histórico do cliente 1 retornou a OS 1 do Dell Inspiron 15, aberta em 24/10/2026, concluída, com Formatação e reinstalação, quantidade 1 e preço unitário de R$ 120,00. A consulta executou sem erros; a data exibida é do registro fictício, não a data da captura.
+
+As quatro consultas foram conferidas no gerenciador. Os registros técnicos anteriores permanecem em evidencias: integridade ok, nenhuma violação de FK e dez verificações adicionais de restrições e cálculo. A demonstração local não substitui a validação com o público externo.
 
 # 7 PITCH E ACESSO AOS ARQUIVOS
 O pitch deverá apresentar a empresa, o modelo incremental, os diagramas UML, o programa C#, o banco e a interface web. O roteiro separado prevê nove minutos, com até um minuto para transições, respeitando o limite total de dez minutos.
@@ -489,7 +512,7 @@ Os objetivos técnicos delimitados foram demonstrados localmente. O console mant
 
 A contribuição extensionista depende de validação. Sem entrevistas, aplicação em uma assistência ou medição de uso, não se afirma redução de tempo ou aumento de satisfação. A próxima etapa é apresentar a solução a um representante do público e registrar seu retorno.
 
-A publicação no GitHub foi concluída e seus links foram incorporados ao relatório. A finalização acadêmica inclui gravar e publicar o pitch, inserir o link do vídeo, complementar as capturas do banco e conferir o horário de entrega. O conjunto técnico permite demonstrar de forma verificável o que foi implementado e testado, distinguindo esses resultados das atividades ainda pendentes.
+A publicação no GitHub foi concluída e seus links foram incorporados ao relatório. A finalização acadêmica inclui gravar e publicar o pitch, inserir o link do vídeo, revisar a versão final e conferir o horário de entrega. O conjunto técnico permite demonstrar de forma verificável o que foi implementado e testado, distinguindo esses resultados das atividades ainda pendentes.
 
 # 9 REFERÊNCIAS BIBLIOGRÁFICAS
 CUNHA, Priscilla Viana. Projeto de extensão em desenvolvimento de sistemas. São Paulo: Universidade Nove de Julho, 2026. Material de orientação disponibilizado à turma no arquivo CONCEITO DO PRECISA SER FEITO.pdf.
@@ -519,7 +542,7 @@ A consolidação parte de TechFix_trabalho de Elen e Projeto_TechFix de Rodrigo,
 | C# com lógica e menu | Capítulo 5, fonte e testes. |
 | DER com pelo menos 5 tabelas | Figura 9 e seis tabelas. |
 | Criação INSERT e 3 SELECT | Três scripts e quatro consultas executadas. |
-| Evidências de execução | Capturas nativas C# nas Figuras 6 e 7; capturas do banco ainda pendentes. |
+| Evidências de execução | Capturas nativas C# nas Figuras 6 e 7 e SQL nas Figuras 10 a 13. |
 | Web e planejamento DevOps | Capítulo 5 e pasta web. |
 | Referências | Capítulo 9. |
 | GitHub e vídeo de até 10 minutos | GitHub publicado com links no capítulo 7; vídeo ainda pendente. |

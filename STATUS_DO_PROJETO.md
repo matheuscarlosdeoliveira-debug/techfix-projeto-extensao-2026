@@ -17,14 +17,17 @@ Atualização: 02/11/2026. Entrega informada pelo grupo: 03/11/2026; horário a 
 - [x] Demonstração interativa do C# conferida: abertura urgente, diagnóstico, aprovação, conclusão, total e histórico de R$ 145,00.
 - [x] Quatro capturas nativas do C# guardadas e capturas de abertura e histórico incorporadas ao relatório em duas páginas.
 
+- [x] DB Browser instalado e banco aberto com as seis tabelas.
+- [x] Quatro consultas SQL executadas no gerenciador, sem erros e com resultados conferidos.
+- [x] Capturas nativas SQL preservadas e quatro imagens incorporadas ao relatório.
+
 ## Pendente
 
 - [ ] Confirmar horário limite, expectativa para web e comprovação extensionista com a professora.
-- [ ] Capturas nativas do gerenciador SQL na máquina do grupo.
 - [ ] Validação externa, conforme orientação da professora, sem inventar resultados.
 - [ ] Gravar pitch de até dez minutos.
 - [ ] Publicar no YouTube como Não listado e testar o link.
-- [ ] Incluir vídeo, capturas e eventual relato de validação no relatório.
+- [ ] Incluir o link do vídeo e eventual relato da validação externa no relatório.
 - [ ] Revisar PDF e todos os links finais.
 - [ ] Postar uma única entrega no Classroom, preferencialmente pelo líder.
 
